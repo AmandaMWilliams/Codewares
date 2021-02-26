@@ -4,13 +4,24 @@
 public class LengthOfLongestSubstring {
 
     public static int lengthOfLongestSubstring(String s) {
-        int counter = 0;
+        String answer = "";
+        String temp = "";
+        int n = 0;
         for (int i = 0; i < s.length(); i++) {
-            for (int j = 1; j < s.length(); j++) {
-                if (s.charAt(i) != s.charAt(j)) {
-                    counter++;
+            if (!temp.contains("" + s.charAt(i))) {
+                temp += s.charAt(i);
+                if (temp.length() > answer.length()) {
+                    answer = temp;
                 }
+            } else {
+                //temp -= s.charAt(i);
+                // temp = "";
+                n = temp.indexOf(s.charAt(i));
+                temp = temp.substring(n + 1);
+                temp += s.charAt(i);
             }
-        } return counter;
+        }
+        return answer.length();
     }
+
 }
