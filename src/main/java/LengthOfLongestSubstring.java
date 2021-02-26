@@ -3,7 +3,7 @@
 
 public class LengthOfLongestSubstring {
 
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         int counter = 0;
         for (int i = 0; i < s.length(); i++) {
             for (int j = 1; j < s.length(); j++) {
