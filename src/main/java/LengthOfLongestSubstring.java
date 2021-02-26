@@ -2,7 +2,6 @@
 // repeating characters.
 
 public class LengthOfLongestSubstring {
-
     public static int lengthOfLongestSubstring(String s) {
         String answer = "";
         String temp = "";
@@ -14,8 +13,6 @@ public class LengthOfLongestSubstring {
                     answer = temp;
                 }
             } else {
-                //temp -= s.charAt(i);
-                // temp = "";
                 n = temp.indexOf(s.charAt(i));
                 temp = temp.substring(n + 1);
                 temp += s.charAt(i);
@@ -23,5 +20,4 @@ public class LengthOfLongestSubstring {
         }
         return answer.length();
     }
-
 }
