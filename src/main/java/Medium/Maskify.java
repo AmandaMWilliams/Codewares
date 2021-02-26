@@ -1,3 +1,5 @@
+package Medium;
+
 public class Maskify {
 
     public static String maskify(String str) {
