@@ -1,4 +1,4 @@
-import Medium.TriangleTester;
+import Level7.TriangleTester;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

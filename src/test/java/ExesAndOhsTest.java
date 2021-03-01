@@ -1,4 +1,4 @@
-import Easy.ExesAndOhs;
+import Level7.ExesAndOhs;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

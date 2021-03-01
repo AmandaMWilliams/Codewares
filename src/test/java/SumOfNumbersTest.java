@@ -9,6 +9,7 @@ public class SumOfNumbersTest {
     {
         assertEquals(-1, s.GetSum(0, -1));
         assertEquals(1, s.GetSum(0, 1));
+        assertEquals(6, s.GetSum(0, 3));
     }
 
 }

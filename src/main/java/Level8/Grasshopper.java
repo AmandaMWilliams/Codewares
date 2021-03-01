@@ -1,4 +1,4 @@
-package Easy;// Write a program that finds the summation of every number from 1 to num.
+package Level8;// Write a program that finds the summation of every number from 1 to num.
 // The number will always be a positive integer greater than 0.
 
 public class Grasshopper {

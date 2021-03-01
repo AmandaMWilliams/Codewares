@@ -1,4 +1,4 @@
-package Easy;
+package Level6;
 
 public class TenMinWalk {
     public static boolean isValid(char[] walk) {

@@ -1,4 +1,4 @@
-import Easy.Grasshopper;
+import Level8.Grasshopper;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

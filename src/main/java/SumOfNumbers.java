@@ -8,13 +8,15 @@ public class SumOfNumbers {
             result = a;
         } else if (a < b) {
             result = a;
-            while (result <= b) {
-                result += result +1;
+            while (a <= b) {
+                a++;
+                result = result + a;
             }
         } else if (b < a){
             result = b;
-            while (result <= a) {
-                result += result +1;
+            while (b <= a) {
+                b++;
+                result = result + b;
             }
         } return result;
     }

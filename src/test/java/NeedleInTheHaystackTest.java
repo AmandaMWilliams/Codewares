@@ -1,4 +1,4 @@
-import Easy.NeedleInTheHaystack;
+import Level8.NeedleInTheHaystack;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

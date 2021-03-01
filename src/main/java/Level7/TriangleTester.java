@@ -1,4 +1,4 @@
-package Medium;
+package Level7;
 
 public class TriangleTester {
     public static boolean isTriangle(int a, int b, int c) {
