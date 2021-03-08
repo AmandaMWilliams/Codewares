@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Medium.BinaryConverter;
 import org.junit.Assert;
 import org.junit.Test;

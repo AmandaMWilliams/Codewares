@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Medium.Maskify;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

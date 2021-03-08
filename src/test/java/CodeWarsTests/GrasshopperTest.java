@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Level8.Grasshopper;
 import org.junit.Test;
 

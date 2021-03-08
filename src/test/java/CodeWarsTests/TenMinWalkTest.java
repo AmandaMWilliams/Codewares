@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Level6.TenMinWalk;
 import org.junit.Test;
 

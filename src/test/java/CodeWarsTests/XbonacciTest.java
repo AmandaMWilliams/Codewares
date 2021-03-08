@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Level6.Xbonacci;
 import org.junit.Test;
 import org.junit.Before;

@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Level7.TriangleTester;
 import org.junit.Test;
 

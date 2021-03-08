@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Level5.PaginationHelper;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

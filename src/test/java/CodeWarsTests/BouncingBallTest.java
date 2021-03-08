@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Medium.BouncingBall;
 import org.junit.Test;
 

@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Hard.LengthOfLongestSubstring;
 import org.junit.Assert;
 import org.junit.Test;

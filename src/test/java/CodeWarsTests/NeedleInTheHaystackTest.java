@@ -1,3 +1,5 @@
+package CodeWarsTests;
+
 import Level8.NeedleInTheHaystack;
 import org.junit.Test;
 
