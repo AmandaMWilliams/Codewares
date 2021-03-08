@@ -11,13 +11,13 @@ public class JumpingOnClouds {
     public static int jumpingOnClouds(int[] c) {
         int minimumNumOfJumps = 0;
         for (int i = 0; i < c.length; i++) {
-            while(i <= c.length-2) {
-                if(c[i+2] == 0){
+            while (i <= c.length - 2) {
+                if (c[i + 2] == 0) {
                     minimumNumOfJumps++;
-                    i+=2;
+                    i += 2;
                 } else {
                     minimumNumOfJumps++;
-                    i+=1;
+                    i += 1;
                 }
             }
         }
